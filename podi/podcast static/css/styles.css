@@ -1,0 +1,62 @@
+.body {
+    font-family: 'Lucida Console, sans-serif';
+}
+
+.header {
+    color: white;
+    height: 50px;
+    border-top-left-radius: 20px;
+}
+
+.links-left {
+    background: white;
+    border-top-left-radius: 20px;
+}
+
+.links-right {
+    background: white;
+    border-top-right-radius: 20px;
+}
+
+.episode-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+.hero {
+    background-image: url(../images/THEHUDRAYSHOW.jpg);
+    background-size: cover;
+    min-height: 350px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.fixed-sidebar {
+    position: fixed;
+    height: 700px;
+}
+
+.popular {
+    padding: 10px;
+    margin: 10px;
+}
+
+.popular h5 {
+    margin: 0px;
+}
+
+.profile-img {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+.text-teal {
+    color: rgb(14, 158, 158);
+}
+
+#delete {
+    margin-top: 300px;
+}

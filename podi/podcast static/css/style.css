@@ -1,0 +1,54 @@
+.navbar ul li {
+    display: flex;
+    justify-content: space-between;
+    float: left;
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar {
+    background-color: #061b3f;
+    margin: 10px;
+    display: flex;
+    position: relative;
+}
+
+.homepage-thumbnail {
+    height: 350px;
+    width: 450px;
+    margin: 10px;
+}
+
+#hero-tags {
+    margin-top: 150px;
+}
+
+.episode {
+    border-top: 1px solid black;
+    margin: 0 20px 0;
+    margin-bottom: 40px;
+}
+
+.episodes {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #700970;
+    color: white;
+}
+
+.search input {
+    height: 40px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.search button {
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.about {
+    margin-left: 50px;
+}
