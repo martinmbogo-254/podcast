@@ -5,88 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SHE HUD'RAY | EPISODE DETAIL</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>SHE-HUDRAY PODCAST</title>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sidebars/">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="sidebars.css" rel="stylesheet">
 </head>
 
-<body class="bg-light">
+<body class="">
     <div class="row">
-        <div class="col-md-3 p-3 mt-3 position-relative sidebar  m-2">
-            <div class="sticky-top">
-                <div class="links-left shadow m-2 ">
-                    <div class="header bg-dark">
-                        <h5 class="mt-3 m-3 p-2">HUD'RAY PODCAST</h5>
-                    </div>
-                    <ul>
-                        <li class="nav-item">
-                            <a href="home.html" class="nav-link">HOME</a>
-                        </li>
+        <div class="col-md-3">
+            <main>
+                <div class="d-flex flex-column flex-shrink-0 p-3 text-black bg-light mt-2 p-2" id="sidebar" style="width: 280px;">
+                    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
 
+                        <h4 class="fs-4 mt-3 m-2 p-2 text-center text-info">PODCAST</h4>
+                    </a>
+                    <hr>
+                    <ul class="nav nav-pills flex-column mb-auto text-dark p-3 m-2">
                         <li class="nav-item">
-                            <a href="episodes.html" class="nav-link">ALL EPISODES</a>
+                            <a href="index.html" class="nav-link  text-black" aria-current="page">
+                                <i class="fa-solid fa-house"></i> Home
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="profile.html" class="nav-link">FAVORITES</a>
+                        <li>
+                            <a href="episode.html" class="nav-link text-black"><i class="fa-solid fa-headphones-simple"></i> Episodes
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a href="profile.html" class="nav-link">PROFILE</a>
+                        <li>
+                            <a href="#" class="nav-link text-black"><i class="fa-solid fa-fire-flame-curved"></i> Popular</a>
                         </li>
-
-                        <li class="nav-item">
-                            <a href="" class="nav-link">LOGOUT</a>
+                        <li>
+                            <a href="#" class="nav-link text-black"><i class="fa-brands fa-gratipay"></i> Favorites</a>
+                        </li>
+                        <li>
+                            <a href="#" class="nav-link text-black"><i class="fa-solid fa-id-card-clip"></i> profile
+                            </a>
                         </li>
                     </ul>
-                </div>
-                <div class="links-left shadow m-2 ">
-                    <div class="header bg-dark">
-                        <h5 class="mt-3 m-3 p-2">TOPIC CATEGORIES</h5>
+                    <hr>
 
-                    </div>
-                    <ul>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">EDUCATION</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">LIFE</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">RELIGION</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">POLITRICKS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">SPORTS </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">FAMILIES</a>
-                        </li>
-                    </ul>
 
                 </div>
-            </div>
+            </main>
         </div>
+
+
         <div class="col-md-8 mt-5 m-2 p-1">
             <div class="text-justify m-2 p-1">
 
 
             </div>
             <div class="row">
-                <div class="col-md-5">
-                    <img src="images/podcast.png" alt="" style="height:350px; width:350px; border-radius: 20px; ">
+                <div class="col-md-7">
+                    <img src="images/waves.jpg" alt="" style="height:350px; width:580px; border-radius: 20px; ">
                 </div>
-                <div class="col-md-5 mt-5 m-3 p-2">
+                <div class="col-md-5 mt-5 ">
                     <h5>EPISODE 1:HELLO WORLD</h5>
                     <p>Descrition: Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat molestiae nihil ea amet aut obcaecati, ipsam ratione officia corrupti odit.</p>
                     <div class=" m-2 p-3">
                         <audio src="C:\Users\Hp\Music\Avicii - Levels" controls></audio>
                     </div>
                     <div>
-                        <a href="profile.html" class="btn btn-dark">Add to favorites</a>
-                        <a href="" class="btn btn-outline-dark ml-2"> Share</a>
+                        <a href="profile.html" class="btn btn-dark"><i class="fa-brands fa-gratipay"></i> Add to favorites</a>
+                        <a href="" class="btn btn-outline-dark ml-2"><i class="fa-solid fa-share-from-square"></i> Share</a>
                     </div>
-                    <p>Ratings 4.5 &#x1F929;</p>
+                    <h5 class="m-2 p-2">Rated: 4 <i class="fa-solid fa-star text-warning"></i></h5>
                 </div>
             </div>
             <div class="row m-3 p-3 comments">
@@ -144,6 +132,7 @@
             </div>
             <div class="col-md-3"></div>
         </div>
+    </div>
     </div>
 </body>
 
